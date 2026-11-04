@@ -36,3 +36,5 @@
 .after-letter button{border-color:#cbb6c8;color:#806a80}
 #surprise{background:#fcf8fc;border-color:#eadce9;color:#806c80}
 @media(max-width:600px){.paper::before{inset:7px}.paper::after{right:20px;top:23px;width:21px;height:16px}.paper-top span:last-child{margin-right:28px}}
+/* A tiny bow next to the closing signature. */
+.letter-content .signature::after{content:"";display:block;width:25px;height:18px;margin:14px 3px 0 auto;background:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 28 20%27%3E%3Cpath d=%27M12 9C6 2 2 3 3 8c1 3 5 3 9 3m4-2c6-7 10-6 9-1-1 3-5 3-9 3M13 12l-3 5m5-5 3 5%27 fill=%27%239a7a96%27 stroke=%27%23645063%27 stroke-width=%271.1%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3Ccircle cx=%2714%27 cy=%2710%27 r=%272%27 fill=%27%23d9b8ce%27 stroke=%27%23645063%27 stroke-width=%271%27/%3E%3C/svg%3E")}
